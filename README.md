@@ -25,3 +25,7 @@ It outputs JSON with facility name, jurisdiction, inspection date, and violation
 pip install -r requirements.txt
 python run_demo.py
 ```
+
+Dashboard: https://unknown-product.vokrix.co
+Vercel: unknown-product
+Railway: 3337a58d-5c87-4553-9833-ec56eabcc2dc
