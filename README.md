@@ -1,5 +1,7 @@
 # Unknown Product
 
+![Dashboard Screenshot](public/screenshot.png)
+
 ## Product Description
 Backend processing pipeline for health inspection violation monitoring using AI (DeepSeek) extraction and threshold evaluation.
 
