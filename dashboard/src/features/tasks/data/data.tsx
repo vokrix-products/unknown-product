@@ -9,15 +9,32 @@ export interface StatusType {
   severity: string
 }
 
-const ALL_STATUSES: StatusType[] = [
-  { label: 'Above Threshold', value: 'above_threshold:critical', icon: TriangleAlert, severity: 'critical' },
-  { label: 'Within Threshold', value: 'within_threshold:good', icon: CircleCheckBig, severity: 'good' },
-  { label: 'Expires Soon', value: 'expires_soon:warning', icon: Clock, severity: 'warning' },
-  { label: 'Archived', value: 'archived:neutral', icon: Archive, severity: 'neutral' },
+export const statuses = [
+  {
+    label: "Above Threshold",
+    value: "above_threshold:critical",
+    icon: TriangleAlert,
+    severity: "critical",
+  },
+  {
+    label: "Within Threshold",
+    value: "within_threshold:good",
+    icon: CircleCheckBig,
+    severity: "good",
+  },
+  {
+    label: "Expires Soon",
+    value: "expires_soon:warning",
+    icon: Clock,
+    severity: "warning",
+  },
+  {
+    label: "Archived",
+    value: "archived:neutral",
+    icon: Archive,
+    severity: "neutral",
+  },
 ]
-
-export const STATUS_LIST: StatusType[] = ALL_STATUSES
-export const statuses: StatusType[] = ALL_STATUSES
 
 export const severityToBadgeVariant: Record<string, 'default' | 'success' | 'warning' | 'destructive'> = {
   critical: 'destructive',

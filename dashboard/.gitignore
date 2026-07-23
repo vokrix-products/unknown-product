@@ -33,3 +33,4 @@ dist-ssr
 **/__screenshots__/
 .vitest-attachments/
 dist/
+.vercel
